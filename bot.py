@@ -5,6 +5,7 @@ from discord.ext import commands
 bot = commands.Bot(command_prefix=".", description="", help_command=None, case_insensitive=True)
 token = "TOKEN HERE"
 
+# Copy and paste the discord IDs, these can be accessed using discord developer mode and right clicking.
 guild_id = None
 role_id = None
 
@@ -127,7 +128,7 @@ async def on_command_error(ctx, error: commands.CommandError):
 	elif isinstance(error, discord.Forbidden): await embed_builder(ctx, "I do not have permission to verify you", "Please grant the change nickname and role permissions.")
 	else: await embed_builder(ctx, "An error has occured while running this command.", f"> ```{error}```")
 
-# Embed builder function
+# Embed builder function // Modify me
 async def embed_builder(ctx, title, description):
 	embed=discord.Embed(title=title, description=description, color=0x613583)
 	embed.set_footer(text="Brick hill verifier")
