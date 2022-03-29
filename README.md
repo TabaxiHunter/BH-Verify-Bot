@@ -14,4 +14,5 @@ To change the embeds you can modify the embed_builder function at the bottom of 
 ## Credits
 
 Although credit is appreciated, you don't need to credit me for making this if used in your own servers. Just don't claim to have made it yourself.
+
 <sup>"Database.json" AHHAHAHAHAHAH</sup>
